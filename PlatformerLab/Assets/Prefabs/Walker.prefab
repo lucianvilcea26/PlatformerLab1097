@@ -70,7 +70,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8922517116515604762
 SpriteRenderer:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -127,6 +127,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
 --- !u!50 &5927012701689825831
 Rigidbody2D:
   serializedVersion: 5
@@ -220,6 +221,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   coyoteTime: 0.1
+  jumpClip: {fileID: 8300000, guid: 2b12ac08298e93e46bb5a550f5ffdb9b, type: 3}
+  landClip: {fileID: 8300000, guid: e77433687b96493419274ae131201dc7, type: 3}
 --- !u!95 &6103207019529782822
 Animator:
   serializedVersion: 7
